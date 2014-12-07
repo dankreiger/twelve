@@ -11,6 +11,8 @@ gem 'bootstrap-sass', '~> 3.3.1.0'
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # Figaro gem for securely managing credentials
 gem 'figaro'
+# Add letter opener for handling emails in development
+gem 'letter_opener', group: :development
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
