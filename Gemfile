@@ -9,6 +9,8 @@ gem 'rails_12factor', group: :production
 gem 'bootstrap-sass', '~> 3.3.1.0'
 # Use stripe for e-commerce payments
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+# Figaro gem for securely managing credentials
+gem 'figaro'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
