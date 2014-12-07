@@ -34,8 +34,9 @@ ul.no-indent {
 /* SHARED PAGE STYLES */
 
 body {
-    background: url('../img/site-bg.gif') #353433;
-    background-size: 25%;
+    background: url('<%= asset_path 'klav.jpg' %>') #353433;
+    /*background-size: 25%;*/
+    background-size: cover;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -59,7 +60,7 @@ body {
     margin-bottom: 20px;
 }
 
-#one-month-footer-logo {
+#twelve-footer-logo {
     height: 12px;
     margin-top: -3px;
 }
@@ -150,7 +151,7 @@ body {
 }
 
 .dotmatrix {
-    background: url('../img/dot-matrix.svg') 50% 0% repeat-y #fff;
+    background: url('<%= asset_path 'dot-matrix.svg' %>') 50% 0% repeat-y #fff;
     height: 100%;
     background-size: 50%;
     width: 10%;
