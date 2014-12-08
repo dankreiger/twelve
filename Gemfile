@@ -7,12 +7,21 @@ gem 'sqlite3', group: [:development, :test]
 gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 gem 'bootstrap-sass', '~> 3.3.1.0'
+
 # Use stripe for e-commerce payments
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
 # Figaro gem for securely managing credentials
 gem 'figaro'
 # Add letter opener for handling emails in development
 gem 'letter_opener', group: :development
+
+# Add activeAdmin to generate an admin interface
+gem 'activeadmin', github: 'gregbell/active_admin'
+
+# Add devise to support login for activAdmin
+gem 'devise'
+
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
