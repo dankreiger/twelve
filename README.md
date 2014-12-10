@@ -1,4 +1,4 @@
-<h3>Twelve - The music app of music apps.</h3>
+<h3>Twelve - The music app.</h3>
 
 <h4>Here people will learn piano and enhance their musicality.</h4>
 
