@@ -39,4 +39,6 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
 
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
+  ENV['PANDASTREAM_URL'] = "https://01d86f47fe2b08f44f23:fbf36df2158a7a65f7c6@api.pandastream.com/1342fe8727f9366189a10898189ce47c"
 end
