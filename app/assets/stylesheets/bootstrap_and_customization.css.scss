@@ -24,3 +24,11 @@ $jumbotron-bg:                                         rgba(0,0,0,.5);
 	// font-family: 'Finger Paint', cursive;
 	color: #000001;
 }
+
+
+#products img:hover{ 
+	
+  position: relative; 
+  top: -5px;
+  font-size: 1em;
+}
