@@ -11,9 +11,13 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-
+  
 <body>
+
+
+    
   <div id="fb-root"></div>
+  
   <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -21,6 +25,7 @@
   js.src = "//connect.facebook.net/en_EN/sdk.js#xfbml=1&appId=757520070996507&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
+
 
 
   
@@ -43,19 +48,14 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
-        <!-- <li><a href="#">Link</a></li>
+        
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Scales <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Major Scales</a></li>
-            <li><a href="#">Minor Scales</a></li>
-            <li><a href="#">Blues Scales</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><%= link_to 'Major Scales', product_path(1) %></li>
+            <li><%= link_to 'Blues Scales', product_path(2) %></li>
           </ul>
-        </li> -->
+        </li>
       </ul>
        <p class="navbar-text pull-right">
   <% if user_signed_in? %>
@@ -94,9 +94,12 @@
     <div class="fb-like" data-href="https://hood-paw.herokuapp.com" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 <%= yield %>
     
-    
+</div>
 
-	</div>
 
 </body>
+
+
+
+
 </html>
