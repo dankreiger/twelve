@@ -20,7 +20,7 @@ twelve_in_twelve = Product.create(title: "Twelve",
       <li>The 12 major scales and their fingerings</li>
   
   </ul>}, 
-  author_description: %{<p>Hey, I'm Dan Kreiger, co-founder of the music education site <a href="#" target="_blank">Twelve</a> where I  .</p>
+  author_description: %{<p>Hey, I'm Dan Kreiger, co-founder of the music education site <a href="#" target="_blank">Twelve</a>.</p>
     <p>For the past 15 years, I've taught internationally to students of all ages and musical interests.</p>
     <p>Follow me on Twitter <a href="https://twitter.com/dankreiger" target="_blank">@dankreiger</a></p>})
 
@@ -53,7 +53,7 @@ blues_in_twelve = Product.create(title: "Blues in Twelve",
   <ul class="no-indent">
     
   </ul>}, 
-  author_description: %{<p>Hey, I'm Dan Kreiger, co-founder of the music education site <a href="#" target="_blank">Twelve</a> where I  .</p>
+  author_description: %{<p>Hey, I'm Dan Kreiger, co-founder of the music education site <a href="#" target="_blank">Twelve</a>.</p>
     <p>Why take my class? For the past 15 years, I've taught internationally to students of all ages and musical interests.</p>
     <p>Follow me on Twitter <a href="https://twitter.com/dankreiger" target="_blank">@dankreiger</a></p>})
 
